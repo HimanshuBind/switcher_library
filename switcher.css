@@ -1,0 +1,111 @@
+.switch {
+  height: 20px;
+  width: 40px;
+  display: block;
+  font-size: 8px;
+}
+
+/* ----- tiny --- */
+.switch.tiny {
+  height: 15px;
+  width: 30px;
+  font-size: 6px;
+}
+
+.switch.tiny input:checked + label > *:first-child::before {
+  content: "";
+}
+
+.switch.tiny label > *:first-child::before {
+  content: "";
+}
+
+/* ---small--- */
+.switch.small {
+  height: 20px;
+  width: 40px;
+  font-size: 8px;
+}
+
+.switch.medium {
+  height: 30px;
+  width: 60px;
+  font-size: 10px;
+}
+
+.switch.large {
+  height: 40px;
+  width: 80px;
+  font-size: 12px;
+}
+
+.switch.x-large {
+  height: 50px;
+  width: 100px;
+  font-size: 14px;
+}
+
+.switch.xx-large {
+  height: 60px;
+  width: 120px;
+  font-size: 16px;
+}
+
+.switch.xxx-large {
+  height: 70px;
+  width: 140px;
+  font-size: 18px;
+}
+
+/* --- Other Logics */
+
+.switch input {
+  display: none;
+}
+
+.switch label {
+  display: block;
+  height: 100%;
+  width: 100%;
+  background-color: rgb(201, 201, 201);
+  border-radius: 50vw;
+  cursor: pointer;
+  position: relative;
+  transition: all 0.2s;
+}
+
+.switch label > *:first-child {
+  height: inherit;
+  width: 50%;
+  background-color: white;
+  border-radius: 50%;
+  position: absolute;
+  left: 0px;
+  transition: all 0.3s;
+  transform: scale(0.9);
+  display: block;
+}
+
+.switch label > *:first-child::before {
+  content: "OFF";
+  font-family: sans-serif;
+  font-size: inherit;
+  font-weight: bold;
+  transition: all 0.3s;
+  position: relative;
+  top: 32%;
+  display: flex;
+  justify-content: center;
+}
+
+.switch input:checked + label > *:first-child::before {
+  content: "ON";
+}
+
+.switch input:checked + label > *:first-child {
+  left: 50%;
+}
+
+.switch input:checked + label {
+  background-color: rgb(0, 156, 65);
+}
