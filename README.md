@@ -12,10 +12,10 @@ CDN Link : <a href="#">https://himanshubind.github.io/switcher_library/switcher.
 Types of Switch:
 
 
-*tiny
-*small
-*medium
-*large
-*x-large
-*xx-large
-*xxx-large
+*tiny </br>
+*small </br>
+*medium </br>
+*large </br>
+*x-large </br>
+*xx-large </br>
+*xxx-large </br>
