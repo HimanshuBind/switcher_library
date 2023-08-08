@@ -1,44 +1,20 @@
-<!DOCTYPE html>
-<html lang="en">
+ Template For Switches
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Switcher Library</title>
+CDN Link : <a href="#">https://himanshubind.github.io/switcher_library/switcher.css</a>
 
-</head>
-<style>
-    *{
-        font-family: sans-serif;
-    }
-</style>
-<body>
+    <div class="switch"> <span style="color:#e74c3c">large</span>
 
-    <p>&nbsp;</p>
+        <input type="checkbox" id="check">
 
-    <p>Template For Switches&nbsp;</p>
+        <label for="check">
 
-    <p>CDN Link : <a href="#">https://himanshubind.github.io/switcher_library/switcher.css</a></p>
+            <div></div>
 
-    <p>&lt;div class=&quot;switch <span style="color:#e74c3c">large</span>&quot;&gt;</p>
+        </label>
 
-    <p>&nbsp; &nbsp; &nbsp; &nbsp; &lt;input type=&quot;checkbox&quot; id=&quot;check&quot;&gt;</p>
+    </div>
 
-    <p>&nbsp; &nbsp; &nbsp; &nbsp; &lt;label for=&quot;check&quot;&gt;</p>
-
-    <p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;div&gt;&lt;/div&gt;</p>
-
-    <p>&nbsp; &nbsp; &nbsp; &nbsp; &lt;/label&gt;</p>
-
-    <p>&lt;/div&gt;</p>
-
-    <p>&nbsp;</p>
-
-    <p>&nbsp;</p>
-
-    <p>Types of Switch&nbsp; :&nbsp;</p>
-
-    <p>&nbsp;</p>
+Types of Switch:
 
     <ul>
         <li><strong>tiny</strong></li>
@@ -48,9 +24,4 @@
         <li><strong>x-large</strong></li>
         <li><strong>xx-large</strong></li>
         <li><strong>xxx-large</strong></li>
-    </ul>
-
-
-</body>
-
-</html>
+   </ul>
